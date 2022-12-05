@@ -14,7 +14,7 @@
     position: relative;
     top: 20px;
     left: 10px;
-    color: #fff;
+    color: rgb(120, 197, 171);
 }
 
 nav {
@@ -24,13 +24,13 @@ nav {
     position: fixed;
     z-index: 1;
     top: 0;
-
+    
 }
 
 .canva-toggler {
     left: -270px;
     z-index: 1;
-
+    
 }
 
 .logo-img {
@@ -52,4 +52,13 @@ ul > li {
     margin-top: 70px;
     margin-left: -1px;
     text-transform: uppercase;
+}
+
+
+ul > li:hover {
+letter-spacing: 4px;
+transition: all 0.8s;
+color: rgb(120, 197, 171);
+font-weight: bold;
+cursor: pointer;
 }
