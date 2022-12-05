@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/wal-wizard/Urban-Way/issues"
   },
-  "homepage": "https://github.com/wal-wizard/Urban-Way#readme"
+  "homepage": "https://github.com/wal-wizard/Urban-Way#readme",
+  "dependencies": {
+    "animejs": "^3.2.1"
+  }
 }
