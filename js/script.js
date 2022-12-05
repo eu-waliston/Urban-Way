@@ -1,5 +1,4 @@
 
-
 let btnCanvaControl = document.querySelector("#btn-canva-control")
 
 let canvaBar = document.querySelector(".canva-toggler")
@@ -9,4 +8,3 @@ function showmenu() {
 }
 
 btnCanvaControl.addEventListener("click", showmenu);
-
