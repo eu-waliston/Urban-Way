@@ -1,2 +1,4 @@
 # Urban-Way
-Site construido com html, css e Js com base em um iframe já pré-definido
+
+Desenvolvido com HTML, CSS & JS, tendo como base um Iframe feito no figma
+
