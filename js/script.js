@@ -8,6 +8,7 @@ function showmenu() {
     
     setTimeout( () => {
         canvaBar.classList.add("canva-toggler");
+        
     }, 3000)
 }
 
