@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
 
+:root {
+    --font--site: 'Roboto', sans-serif;
+    --font--title: 'Carter One', cursive;
+    --bars-color: rgb(120, 197, 171);
+    --side-color: #232324;
+    --text-color: #fff;
+}
 
 * {
     margin: 0;
     padding-top: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -22,15 +29,15 @@ html {
     position: fixed;
     top: 20px;
     left: 10px;
-    color: rgb(120, 197, 171);
-    background-color: #232324;
+    color: var(--text-color);
+    background-color: var(--side-color);
     border-radius: 10px;
 }
 
 nav {
     height: 100vh;
     width: 270px;
-    background-color: #232324;
+    background-color: var(--side-color);
     position: fixed;
     z-index: 1;
     top: 0;
@@ -39,7 +46,7 @@ nav {
 
 a {
     text-decoration: none;
-    color: rgb(120, 197, 171);
+    color: var(--text-color);
 }
 
 .canva-toggler {
@@ -58,9 +65,9 @@ ul {
     top: 50px;
 }
 
-ul > li {
+ul>li {
     list-style: none;
-    color: #fff;
+    color: var(--text-color);
     font-size: 22px;
     margin-top: 70px;
     margin-left: -1px;
@@ -68,12 +75,14 @@ ul > li {
 }
 
 
-ul > li:hover {
-    letter-spacing: 4px;
+ul>li:hover {
+    letter-spacing: 2px;
     transition: all 0.8s;
-    color: rgb(120, 197, 171);
-    font-weight: bold;
+    color: var(--bars-color);
     cursor: pointer;
+}
+a:hover {
+    color: var(--bars-color);
 }
 
 /*descrubra */
@@ -82,8 +91,38 @@ ul > li:hover {
     height: 100vh;
     background-image: url("../assets/img/fundo.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+
+
+.midle-div-home {
+    position: relative;
+    margin-left: 14%;
+    top: 30%;
+}
+
+
+.home--h1, .home--h2 {
+    font-family: var(--font--title);
+    color: var(--text-color);
 }
 
 .home--h1 {
-    
+    font-size: 160px;
+    text-transform: capitalize;
+}
+
+.home--h2 {
+    position: relative;
+    font-size: 50px;
+    margin-top: -40px;
+    margin-left: 50px;
+    text-transform: capitalize;
+}
+
+.square-2 {
+    background-color: #232324; 
+    padding: 5px;
+    border-radius: 5px;
 }
