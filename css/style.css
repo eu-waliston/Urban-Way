@@ -12,10 +12,6 @@ html {
     scroll-behavior: smooth;
 }
 
-@font-face {
-    font-family: UrbanWay;
-    src: url("sansation_light.woff");
-}
 
 #btn-canva-control {
     font-size: 50px;
