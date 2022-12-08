@@ -7,18 +7,26 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
 html {
     scroll-behavior: smooth;
-  }
+}
+
+@font-face {
+    font-family: UrbanWay;
+    src: url("sansation_light.woff");
+}
 
 #btn-canva-control {
     font-size: 50px;
     cursor: pointer;
     z-index: 2;
-    position: relative;
+    position: fixed;
     top: 20px;
     left: 10px;
     color: rgb(120, 197, 171);
+    background-color: #232324;
+    border-radius: 10px;
 }
 
 nav {
@@ -38,8 +46,6 @@ a {
 
 .canva-toggler {
     left: -270px;
-    z-index: 1;
-
 }
 
 .logo-img {
@@ -54,7 +60,7 @@ ul {
     top: 50px;
 }
 
-ul>li {
+ul > li {
     list-style: none;
     color: #fff;
     font-size: 22px;
@@ -64,10 +70,18 @@ ul>li {
 }
 
 
-ul>li:hover {
+ul > li:hover {
     letter-spacing: 4px;
     transition: all 0.8s;
     color: rgb(120, 197, 171);
     font-weight: bold;
     cursor: pointer;
+}
+
+/*descrubra */
+#descubra {
+    top: 0;
+    height: 100vh;
+    background-image: url("../assets/img/fundo.jpg");
+    background-size: cover;
 }
