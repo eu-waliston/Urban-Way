@@ -1,63 +1,19 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Urban Way</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-
-
-</head>
-
-<body>
-    <i class="bi bi-list" id="btn-canva-control"></i>
-
-    <nav class="canva-toggler">
-        <img src="./assets/img/logo.png" class="logo-img">
-        <ul>
-            <li>
-                <a href="#descubra">
-                    <i class="bi bi-heart-fill"></i> Descubra
-                </a>
-            </li>
-
-            <li>
-                <a href="#precos">
-                    <i class="bi bi-currency-dollar"></i> Preços
-                </a>
-            </li>
-            <li>
-                <a href="#cadastro">
-                    <i class="bi bi-person"></i> Cadastre-se
-                </a>
-            </li>
-            <li>
-                <a href="#login">
-                    <i class="bi bi-door-open"></i> Login
-                </a>
-            </li>
-        </ul>
-    </nav>
-
-    <section id="descubra">
-        <div class="midle-div-home">
-            <h1 class="home--h1">
-                <span class="square-1">U</span>rban Way.
-            </h1>
-            <h2 class="home--h2">
-                <span class="square-2">seu estilo, sua identidade!</span>
-            </h2>
-        </div>
-    </section>
-
-    
-
-    <script src="./js/script.js" type="module"></script>
-</body>
-
+<%- include('layouts/header'); -%>
+    <body>
+        <i class="bi bi-list" id="btn-canva-control"></i>
+            <%- include('layouts/menu'); -%>
+            <section id="descubra">
+                <div class="midle-div-home">
+                    <h1 class="home--h1">
+                        <span class="square-1">U</span>rban Way.
+                    </h1>
+                    <h2 class="home--h2">
+                        <span class="square-2">seu estilo, sua identidade!</span>
+                    </h2>
+                </div>
+            </section>
+            <%- include('layouts/script'); -%>
+    </body>
 </html>

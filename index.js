@@ -5,8 +5,9 @@ const ejs = require('ejs')
 const app = new express();
 app.set('view engine','ejs')
 
-app.get('/index', (req, res) => {
+app.use(express.static('public'))
 
+app.get('/', (req, res) => {
     res.render("index")
 })
 

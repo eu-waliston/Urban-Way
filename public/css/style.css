@@ -89,7 +89,7 @@ a:hover {
 #descubra {
     top: 0;
     height: 100vh;
-    background-image: url("../assets/img/fundo.jpg");
+    background-image: url("/img/fundo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 100%;
