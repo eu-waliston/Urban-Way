@@ -131,13 +131,13 @@ a:hover {
 /* MAIN SECTION */
 #descubra {
     height: 200vh;
-    background-color: antiquewhite;
+    background-color: var(--side-color);
     max-width: 100%;
 }
 
 .descubra--h1 {
     text-align: center;
-    color: var(--side-color);
+    color: var(--text-color);
     font-size: 40px;
     position: relative;
     top: 20px;
@@ -147,10 +147,11 @@ a:hover {
 }
 #grid-images {
     display: grid;
-    grid-template-columns: repeat(4, 335px);
+    grid-template-columns: repeat(5, 335px);
     gap: 5px;
     align-items: center;
     justify-content: center;
+    margin-top: 5%;
 }
 
 .img-grid {
