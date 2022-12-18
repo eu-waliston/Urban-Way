@@ -8,6 +8,18 @@ const ejs = require('ejs')
 //     console.log(res);
 // })
 
+// cep.addEventListener("blur", (e) => {
+//     let search = cep.value.replace("-", "")
+//     const options = {
+//         method: "GET",
+//         mode: "cors",
+//         cache: "default"
+//     }
+//     fetch(`https://viacep.com.br/ws/${search}/json/`, options).then(response => {
+//         response.json().then(data => showData(data))
+//     }).catch(e => console.log(`Deu Erro: ${e, message}`))
+// })
+
 const app = new express();
 app.set('view engine','ejs')
 
