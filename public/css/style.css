@@ -147,15 +147,15 @@ a:hover {
 }
 #grid-images {
     display: grid;
-    grid-template-columns: repeat(5, 335px);
-    gap: 5px;
+    grid-template-columns: repeat(5, 270px);
+    gap: 7px;
     align-items: center;
     justify-content: center;
     margin-top: 5%;
 }
 
 .img-grid {
-    width: 335px;
+    width: 270px;
 }
 
 .img-grid:hover{
