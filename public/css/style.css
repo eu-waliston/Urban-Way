@@ -1,186 +1,221 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&display=swap");
 
 :root {
-    --font--site: 'Roboto', sans-serif;
-    --font--title: 'Carter One', cursive;
-    --bars-color: rgb(120, 197, 171);
-    --side-color: #232324;
-    --text-color: #fff;
+  --font--site: "Roboto", sans-serif;
+  --font--title: "Carter One", cursive;
+  --bars-color: rgb(120, 197, 171);
+  --side-color: #232324;
+  --text-color: #fff;
 }
 
 * {
-    margin: 0;
-    padding-top: 0;
-    box-sizing: border-box;
-}
+  margin: 0;
+  padding-top: 0;
+  box-sizing: border-box;
 
+}
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-
 #btn-canva-control {
-    font-size: 50px;
-    cursor: pointer;
-    z-index: 2;
-    position: fixed;
-    top: 20px;
-    left: 10px;
-    color: var(--text-color);
-    background-color: var(--side-color);
-    border-radius: 10px;
+  font-size: 50px;
+  cursor: pointer;
+  z-index: 2;
+  position: fixed;
+  top: 20px;
+  left: 10px;
+  color: var(--text-color);
+  background-color: var(--side-color);
+  border-radius: 10px;
 }
 
 nav {
-    height: 100vh;
-    width: 270px;
-    background-color: var(--side-color);
-    position: fixed;
-    z-index: 1;
-    top: 0;
-
+  height: 100vh;
+  width: 270px;
+  background-color: var(--side-color);
+  position: fixed;
+  z-index: 1;
+  top: 0;
 }
 
 a {
-    text-decoration: none;
-    color: var(--text-color);
+  text-decoration: none;
+  color: var(--text-color);
 }
 
 .canva-toggler {
-    left: -270px;
+  left: -270px;
 }
 
 .logo-img {
-    width: 270px;
-    position: relative;
-    top: 8%;
-    transition: all 0.5s;
+  width: 270px;
+  position: relative;
+  top: 8%;
+  transition: all 0.5s;
 }
 
 ul {
-    position: relative;
-    top: 50px;
+  position: relative;
+  top: 50px;
 }
 
-ul>li {
-    list-style: none;
-    color: var(--text-color);
-    font-size: 22px;
-    margin-top: 70px;
-    margin-left: -1px;
-    text-transform: uppercase;
+ul > li {
+  list-style: none;
+  color: var(--text-color);
+  font-size: 22px;
+  margin-top: 70px;
+  margin-left: -1px;
+  text-transform: uppercase;
 }
 
-
-ul>li:hover {
-    letter-spacing: 2px;
-    transition: all 0.8s;
-    color: var(--bars-color);
-    cursor: pointer;
+ul > li:hover {
+  letter-spacing: 2px;
+  transition: all 0.8s;
+  color: var(--bars-color);
+  cursor: pointer;
 }
 a:hover {
-    color: var(--bars-color);
+  color: var(--bars-color);
 }
 
 /*initial--section */
 #initial--section {
-    top: 0;
-    height: 100vh;
-    background-image: url("/img/fundo.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    max-width: 100%;
+  top: 0;
+  height: 100vh;
+  background-image: url("/img/fundo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
 }
-
 
 .midle-div-home {
-    position: relative;
-    margin-left: 14%;
-    top: 30%;
+  position: relative;
+  margin-left: 14%;
+  top: 30%;
 }
 
-
-.home--h1, .home--h2 {
-    font-family: var(--font--title);
-    color: var(--text-color);
+.home--h1,
+.home--h2 {
+  font-family: var(--font--title);
+  color: var(--text-color);
 }
 
 .home--h1 {
-    font-size: 160px;
-    text-transform: capitalize;
+  font-size: 160px;
+  text-transform: capitalize;
 }
 
 .home--h2 {
-    position: relative;
-    font-size: 50px;
-    margin-top: -40px;
-    margin-left: 50px;
-    text-transform: capitalize;
+  position: relative;
+  font-size: 50px;
+  margin-top: -40px;
+  margin-left: 50px;
+  text-transform: capitalize;
 }
 
 .square-2 {
-    background-color: #232324; 
-    padding: 5px;
-    border-radius: 5px;
+  background-color: #232324;
+  padding: 5px;
+  border-radius: 5px;
 }
-
 
 /* MAIN SECTION */
 #descubra {
-    height: 200vh;
-    background-color: var(--side-color);
-    max-width: 100%;
+  height: 200vh;
+  background-color: var(--side-color);
+  max-width: 100%;
 }
 
 .descubra--h1 {
-    text-align: center;
-    color: var(--text-color);
-    font-size: 40px;
-    position: relative;
-    top: 20px;
-    margin-bottom: 50px;
-    font-family: var(--font--title);
-    text-transform: capitalize;
+  text-align: center;
+  color: var(--text-color);
+  font-size: 40px;
+  position: relative;
+  top: 20px;
+  margin-bottom: 50px;
+  font-family: var(--font--title);
+  text-transform: capitalize;
 }
 #grid-images {
-    display: grid;
-    grid-template-columns: repeat(5, 270px);
-    gap: 7px;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(5, 270px);
+  gap: 7px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
 }
 
 .img-grid {
-    width: 270px;
+  width: 270px;
 }
 
-.img-grid:hover{
-    cursor: pointer;
-    transition: all 0.5s;
-    transform: rotate(5deg) scale(1.2);
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
+.img-grid:hover {
+  cursor: pointer;
+  transition: all 0.5s;
+  transform: rotate(5deg) scale(1.2);
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
+}
+
+/* Hall da fama */
+
+#hall--da--fama {
+  position: relative;
+  top: 5%;
 }
 
 #side {
-    color: #fff;
-    position: relative;
-    top:300px;
-    margin-left: 180px;
+  color: #fff;
+  position: relative;
+  top: 300px;
+  margin-left: 180px;
 }
 
+.hall--h1 {
+    font-size: 70px;
+    text-transform: capitalize;
+    font-family: var(--font--site);
+}
 
+.hall--p-1, .hall--p-2 {
+    font-family: var(--font--site);
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.hall--btn {
+    height: 50px;
+    width: 150px;
+    position: relative;
+    top: 70px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.hall--btn:hover {
+    font-weight: bold;
+}
 
 .grid--hall {
-    float: right;
-    position: relative;
-    right: 100px;
-    top: 80px;
+  float: right;
+  position: relative;
+  right: 150px;
+  top: 80px;
 }
 .img--hall {
-    width: 280px;
+  width: 260px;
+  z-index: 2;
 }
+
+
+.R1:hover, .R2:hover, .R3:hover, .R4:hover {
+    transform: rotate(5deg) scale(1.4);
+    transition: all 0.9s;
+    border-radius: 8px;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.377);
+    z-index:122222;
+}
+
