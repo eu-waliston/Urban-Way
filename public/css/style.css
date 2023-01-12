@@ -14,7 +14,6 @@
   margin: 0;
   padding-top: 0;
   box-sizing: border-box;
-
 }
 
 html {
@@ -176,33 +175,34 @@ a:hover {
 }
 
 .hall--h1 {
-    font-size: 70px;
-    text-transform: capitalize;
-    font-family: var(--font--site);
+  font-size: 70px;
+  text-transform: capitalize;
+  font-family: var(--font--site);
 }
 
-.hall--p-1, .hall--p-2 {
-    font-family: var(--font--site);
-    text-transform: capitalize;
-    font-size: 20px;
+.hall--p-1,
+.hall--p-2 {
+  font-family: var(--font--site);
+  text-transform: capitalize;
+  font-size: 20px;
 }
 .hall--btn {
-    height: 50px;
-    width: 150px;
-    position: relative;
-    top: 70px;
-    font-size: 20px;
-    text-transform: uppercase;
+  height: 50px;
+  width: 150px;
+  position: relative;
+  top: 70px;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 .hall--btn:hover {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .grid--hall {
   float: right;
   position: relative;
-  right: 150px;
+  right: 200px;
   top: 80px;
 }
 .img--hall {
@@ -210,12 +210,120 @@ a:hover {
   z-index: 2;
 }
 
-
-.R1:hover, .R2:hover, .R3:hover, .R4:hover {
-    transform: rotate(5deg) scale(1.4);
-    transition: all 0.9s;
-    border-radius: 8px;
-    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.377);
-    z-index:122222;
+.R1:hover,
+.R2:hover,
+.R3:hover,
+.R4:hover {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  transform: rotate(5deg) scale(1.4);
+  transition: all 0.9s;
+  border-radius: 8px;
+  box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.377);
+  z-index: 122222;
+  margin-left: 40px;
+}
+/* prices */
+#precos {
+  height: 100vh;
+  background-color: var(--side-color);
+  max-width: 100%;
 }
 
+.precos__h1 {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  font-size: 70px;
+  text-transform: capitalize;
+  font-family: var(--font--title);
+  top: 40px;
+}
+.precos__p {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  font-family: var(--font--site);
+  font-size: 20px;
+  top: 35px;
+}
+
+#cards {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  position: relative;
+  top: 15%;
+  margin-left: 27%;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+#c__1, #c__2, #c__3 {
+  
+  background-color: white;
+  height: 250%;
+  display: grid;
+  text-align: center;
+  font-family: var(--font--site);
+  border-radius: 10px;
+  
+}
+
+.card_info > p {
+  font-size: 18px;
+  position: relative;
+  top: 12%;
+  
+}
+
+.card_spec {
+  background-color: #b8b8be;
+  height: 60%;
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+
+.btn{
+  background-color: #b8b8be;
+  height: 70%;
+  width: 100%;
+  font-size: 20px;
+  text-transform: uppercase;
+  position: relative;
+  top: 30%;
+
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.card_title {
+  position: relative;
+  top: 16%;
+}
+
+.btn__2, .btn__3 {
+  background-color: rgb(18, 95, 211);
+  color: #fff;
+  font-weight: 700;
+  border-color: rgb(18, 95, 211);
+}
+
+.btn__1:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  transition: all 0.9s;
+  border-color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.btn:hover, .btn:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  transition: all 0.9s;
+  border-color: rgb(255, 255, 255);
+}
