@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <%- include('layouts/header'); -%>
+  <%- include('../layouts/header'); -%>
   <body>
     <i class="bi bi-list" id="btn-canva-control"></i>
     <!--nav bar-->
-    <%- include('layouts/menu'); -%>
+    <%- include('../layouts/menuDLogin.ejs'); -%>
     <section>
-      <h1 class="login__h1">Login</h1>
       <div id="login__menu">
-        <div>
-          <label for="username">Username: </label>
-          <input type="text" />
-        </div>
-        <div>
-          <label for="username">Senha: </label>
-          <input type="text" />
-        </div>
-        <div>
-          <button type="submit">
-            <i class="bi bi-door-open"></i> Login
-          </button>
+        <h1 class="login__h1">Login</h1>
+        <div class="form__control">
+          <div class="form__item">
+            <label for="username">Username: </label>
+            <input type="text" />
+          </div>
+          <div class="form__item f2">
+            <label for="username">Senha: </label>
+            <input type="text" />
+          </div>
+          <div class="form__btn">
+            <button type="submit" class="btn__ct">
+              <i class="bi bi-door-open"></i> Login
+            </button>
+          </div>
         </div>
       </div>
     </section>
     <!--Footer-->
-    <%- include('layouts/footer.ejs') %>
+    <%- include('../layouts/footer.ejs') %>
     <!--Scripts-->
-    <%- include('layouts/script'); -%>
+    <%- include('../layouts/script'); -%>
   </body>
 </html>
