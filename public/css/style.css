@@ -18,6 +18,7 @@
 
 html {
   scroll-behavior: smooth;
+  background-color: #232324;
 }
 
 #btn-canva-control {
@@ -259,22 +260,21 @@ a:hover {
   border-radius: 10px;
 }
 
-#c__1, #c__2, #c__3 {
-  
+#c__1,
+#c__2,
+#c__3 {
   background-color: white;
   height: 250%;
   display: grid;
   text-align: center;
   font-family: var(--font--site);
   border-radius: 10px;
-  
 }
 
 .card_info > p {
   font-size: 18px;
   position: relative;
   top: 12%;
-  
 }
 
 .card_spec {
@@ -283,10 +283,9 @@ a:hover {
 
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-
 }
 
-.btn{
+.btn {
   background-color: #b8b8be;
   height: 70%;
   width: 100%;
@@ -304,7 +303,8 @@ a:hover {
   top: 16%;
 }
 
-.btn__2, .btn__3 {
+.btn__2,
+.btn__3 {
   background-color: rgb(18, 95, 211);
   color: #fff;
   font-weight: 700;
@@ -320,7 +320,8 @@ a:hover {
   font-weight: 700;
 }
 
-.btn:hover, .btn:hover {
+.btn:hover,
+.btn:hover {
   cursor: pointer;
   background-color: rgb(255, 255, 255);
   color: #000000;
@@ -343,7 +344,6 @@ a:hover {
   font-size: 50px;
   font-family: var(--font--title);
 }
-
 
 .form__control {
   background-color: #fff;
@@ -394,4 +394,26 @@ input {
   width: 200px;
   position: relative;
   left: 5%;
+}
+
+#myBtn {
+  display: none;
+  position: fixed; 
+  bottom: 20px;
+  right: 30px; 
+  z-index: 99;
+  border: none; 
+  outline: none; 
+  color: white; 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 50px;
+}
+
+#myBtn:hover {
+  cursor: pointer;
+  transition: all 0.8s;
+  transform: scale(1.1);
+  color: rgb(206, 203, 203);
 }
