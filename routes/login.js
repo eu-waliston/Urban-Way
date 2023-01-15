@@ -3,9 +3,9 @@ const router = express.Router();
 
 router.get('/', async(req,res) => {
     try {
-        res.render('pages/login')
+        res.status(200).render('pages/login')
     } catch (error) {
-        res.status(500).render("/error", {error: "Página não encontrada"})
+        res.status(500).render("pages/error", {error: "Página não encontrada"})
     }
 })
 

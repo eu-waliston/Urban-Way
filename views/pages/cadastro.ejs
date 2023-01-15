@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('../layouts/header'); -%>
+  <body>
+    <i class="bi bi-list" id="btn-canva-control"></i>
+    <!--nav bar-->
+    <%- include('../layouts/menuDCad.ejs'); -%>
+    <section>
+      <div id="login__menu">
+        <h1 class="login__h1">Cadastro</h1>
+        <div class="form__control">
+          <div class="form__item">
+            <label for="username">Username: </label>
+            <input type="text" />
+          </div>
+          <div class="form__item f2">
+            <label for="username">Senha: </label>
+            <input type="text" />
+          </div>
+          <div class="form__btn">
+            <button type="submit" class="btn__ct cad">
+                <i class="bi bi-person"></i> Cadastre-se
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Footer-->
+    <%- include('../layouts/footer.ejs') %>
+    <!--Scripts-->
+    <%- include('../layouts/script'); -%>
+  </body>
+</html>

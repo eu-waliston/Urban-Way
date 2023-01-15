@@ -389,3 +389,9 @@ input {
   font-size: 20px;
   position: relative;
 }
+
+.cad {
+  width: 200px;
+  position: relative;
+  left: 5%;
+}

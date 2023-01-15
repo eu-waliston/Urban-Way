@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 const rootRouter = require('./routes/index');
 const loginRouter = require('./routes/login');
+const cadastroRouter = require('./routes/cadastro');
 
 const app = express();
 app.use(express.json());
@@ -13,6 +14,7 @@ app.set('view engine', 'ejs')
 
 app.use('/', rootRouter);
 app.use('/login', loginRouter);
+app.use('/cadastro', cadastroRouter);
 
 app.listen(3000, () => {
     console.log("🚀 APP running at port 3000");
