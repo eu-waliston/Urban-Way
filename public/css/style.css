@@ -332,7 +332,7 @@ a:hover {
 /* LOGIN PAGE */
 #login__menu {
   background-color: var(--side-color);
-  height: 100vh;
+  height: 96vh;
   width: 100%;
 }
 
@@ -398,16 +398,16 @@ input {
 
 #myBtn {
   display: none;
-  position: fixed; 
+  position: fixed;
   bottom: 20px;
-  right: 30px; 
+  right: 30px;
   z-index: 99;
-  border: none; 
-  outline: none; 
-  color: white; 
-  cursor: pointer; 
-  padding: 15px; 
-  border-radius: 10px; 
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
   font-size: 50px;
 }
 
@@ -416,4 +416,27 @@ input {
   transition: all 0.8s;
   transform: scale(1.1);
   color: rgb(206, 203, 203);
+}
+
+/* FOOTER */
+#footer__h1 {
+  color: #fff;
+  font-family: var(--font--site);
+  position: relative;
+  text-align: center;
+}
+
+#footer__itens {
+  display: flex;
+  text-align: center;
+  position: relative;
+  margin-left: 42%;
+  cursor: pointer;
+  top: -15px;
+}
+.ss {
+  font-size: 30px;
+  margin-left: 15px;
+  text-align: center;
+  color: #fff;
 }
